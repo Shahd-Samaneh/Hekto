@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --primaryColor: #FB2E86;
+    --mainFont: "Lato", sans-serif;
+    --btnFont: "Josefin Sans", sans-serif;
+    --secBtnColor: #08D15F;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: calc(100% - 376px);
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-family: var(--btnFont);
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border-radius: 2px;
+}
+
+.primary_btn {
+    background-color: var(--primaryColor);
+}
+
+.secondary_btn {
+    background-color: var(--secBtnColor);
+
+}
