@@ -2,6 +2,8 @@ body {
     font-family: var(--mainFont);
 }
 
+
+/* start header */
 .header {
     padding-top: 47px;
     padding-bottom: 35px;
@@ -63,3 +65,69 @@ body {
     }
 
 }
+
+/* end header */
+
+/* start footer */
+
+.footer {
+    background-color: var(--backgroundColor);
+    padding: 100px 0px;
+}
+
+.footer .right-side {
+    width: 60%;
+
+}
+
+.footer .right-side .row {
+    align-items: normal;
+}
+
+.footer .left-side {
+    align-items: flex-start;
+    gap: 35px;
+    color: #8A8FB9;
+
+
+}
+
+.footer form {
+    border: 1px solid var(--backgroundColor);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+}
+
+.footer form input {
+
+    color: #FFFFFF;
+
+    opacity: 0.45;
+}
+
+
+.footer form button {
+    font-family: var(--btn2Font);
+
+    font-size: 16px;
+
+}
+
+.footer a {
+    color: #8A8FB9;
+    font-size: 16px;
+}
+
+.address-info {
+    font-size: 16px;
+}
+
+.address-info h2 {
+    font-weight: lighter;
+    font-size: 16px;
+
+}
+
+
+/* end footer */

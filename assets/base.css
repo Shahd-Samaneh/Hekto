@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -16,7 +16,9 @@ ul {
     --primaryColor: #FB2E86;
     --mainFont: "Lato", sans-serif;
     --btnFont: "Josefin Sans", sans-serif;
+    --btn2Font: "Roboto",sans-serif;
     --secBtnColor: #08D15F;
+    --backgroundColor: #EEEFFB;
 }
 
 .row {
@@ -47,4 +49,34 @@ ul {
 .secondary_btn {
     background-color: var(--secBtnColor);
 
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.gap-1{
+    gap:5px;
+}
+
+.gap-2{
+    gap:20px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-3{
+    gap:46px;
+}
+
+.pt-1{
+    padding-top: 50px;
 }
