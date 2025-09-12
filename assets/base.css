@@ -16,7 +16,7 @@ ul {
     --primaryColor: #FB2E86;
     --mainFont: "Lato", sans-serif;
     --btnFont: "Josefin Sans", sans-serif;
-    --btn2Font: "Roboto",sans-serif;
+    --btn2Font: "Roboto", sans-serif;
     --secBtnColor: #08D15F;
     --backgroundColor: #EEEFFB;
 }
@@ -32,23 +32,26 @@ ul {
     width: calc(100% - 376px);
     margin: auto;
 }
+
 @media screen and (max-width:1400px) {
     .container {
-    width: calc(100% - 200px);
-    
+        width: calc(100% - 200px);
+
+    }
 }
-}
+
 @media screen and (max-width:992px) {
     .container {
-    width: calc(100% - 100px);
-    
+        width: calc(100% - 100px);
+
+    }
 }
-}
+
 @media screen and (max-width:576px) {
     .container {
-    width: calc(100% - 40px);
-    
-}
+        width: calc(100% - 40px);
+
+    }
 }
 
 
@@ -70,32 +73,47 @@ ul {
 
 }
 
-.text-white{
+.text-white {
     color: #FFFFFF;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.flex-direction{
+.flex-direction {
     flex-direction: column;
 }
 
-.gap-1{
-    gap:5px;
+.gap-1 {
+    gap: 5px;
 }
 
-.gap-2{
-    gap:20px;
+.gap-2 {
+    gap: 20px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.gap-3{
-    gap:46px;
+
+.gap-3 {
+    gap: 46px;
 }
 
-.pt-1{
+.pt-1 {
     padding-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tex-left {
+    text-align: left;
+
+}
+
+.text-right {
+    text-align: right;
 }
