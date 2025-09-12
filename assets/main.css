@@ -67,6 +67,24 @@ body {
 }
 
 /* end header */
+/* start news later */
+.newsLater{
+    background-image: url("./img/public/news.webp");
+    padding: 175px 0px;
+    text-align: center;
+}
+.newsLater h2{
+    color: #151875;
+    font-family: var(btnFont);
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.newsLater a:hover
+{
+    background-color:  #151875;
+}
+/* end news later */
 /* start clients  */
 /* end clients */
 .clients {
