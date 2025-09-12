@@ -67,6 +67,32 @@ body {
 }
 
 /* end header */
+/* start clients  */
+/* end clients */
+.clients {
+    padding: 100px 0px;
+}
+
+.clients .row {
+    flex-wrap: nowrap;
+    gap: 50px;
+    overflow-x: auto;
+}
+
+.clients .logo {
+    width: calc((100% - 250px) / 6);
+}
+
+.clients img {
+    width: 130px;
+    height : 70px;
+}
+
+@media screen and (max-width:900px) {
+    .clients .logo {
+        width: calc((100% - 150px) / 4);
+    }
+}
 
 /* start footer */
 
@@ -93,7 +119,7 @@ body {
 }
 
 .footer .right-side .row {
-    align-items:self-start;
+    align-items: self-start;
     gap: 90px;
 }
 
