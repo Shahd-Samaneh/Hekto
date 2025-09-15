@@ -76,6 +76,7 @@ body {
 
 .products .row{
     justify-content: flex-start;
+     flex-wrap: nowrap;
     gap: 30px;
 }
 
@@ -85,6 +86,7 @@ body {
 .products .product{
     flex-grow: 1;
     flex-basis: 300px;
+   
      box-shadow: 0px 4px 4px #00000040;
 }
 
