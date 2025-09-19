@@ -301,7 +301,7 @@ body {
 }
 
 .leatest-products .shopping-list {
-    top: 35%;
+    top: 40%;
     transition: all .6s;
 
 }
@@ -351,6 +351,50 @@ body {
 }
 
 /* end leatest products */
+
+
+/* start Shopex-Offer  */
+.Shopex-Offer {
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+.Shopex-Offer h2 {
+    color: #1A0B5B;
+    font-size: 36px;
+    font-family: var(--btnFont);
+    font-weight: bold;
+}
+
+.cards {
+    padding-top: 55px;
+}
+
+.Shopex-Offer .row {
+    gap: 28px;
+}
+
+.Shopex-Offer .card {
+    padding: 30px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    gap: 20px;
+}
+
+.card h3 {
+    font-family: var(--btnFont) ;
+    color: #151875;
+}
+
+.card p {
+   font-family: var(--btnFont) ;
+    color: #1A0B5B;
+    opacity: 0.3;
+}
+
+/* end Shopex-Offer*/
+
+
 
 /* start news later */
 .newsLater {
