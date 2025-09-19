@@ -17,6 +17,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/main.css" />
 </head>
 
@@ -70,14 +73,24 @@
         </div>
     </header>
     <main>
+
         <section class="products text-center">
             <div class="container">
                 <h2>Featured Products</h2>
                 <div class="row">
                     <div class="product ">
+
+                        <div class="shopping-list">
+                            <div class="row">
+                                <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
                         <div class="img">
                             <img src="./assets/img/products/product1.webp" />
                         </div>
+                        <a href="#" class="btn secondary_btn view-product">View Details</a>
                         <div class="product-details d-flex flex-direction ">
                             <h3>Cantilever chair</h3>
                             <div class="color-options">
@@ -85,7 +98,7 @@
                                 <button class="color color-two"></button>
                                 <button class="color color-three"></button>
                             </div>
-                            <div class="product-info">
+                            <div class="product-info   d-flex flex-direction">
                                 <span>Code - Y523201</span>
                                 <span>$42.00</span>
                             </div>
@@ -93,10 +106,18 @@
                         </div>
                     </div>
 
-                     <div class="product ">
+                    <div class="product ">
+                        <div class="shopping-list">
+                            <div class="row">
+                                <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
                         <div class="img">
                             <img src="./assets/img/products/product2.webp" />
                         </div>
+                        <a href="#" class="btn secondary_btn view-product">View Details</a>
                         <div class="product-details d-flex flex-direction ">
                             <h3>Cantilever chair</h3>
                             <div class="color-options">
@@ -104,7 +125,7 @@
                                 <button class="color color-two"></button>
                                 <button class="color color-three"></button>
                             </div>
-                            <div class="product-info">
+                            <div class="product-info  d-flex flex-direction">
                                 <span>Code - Y523201</span>
                                 <span>$42.00</span>
                             </div>
@@ -112,10 +133,18 @@
                         </div>
                     </div>
 
-                     <div class="product ">
+                    <div class="product ">
+                        <div class="shopping-list">
+                            <div class="row">
+                                <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
                         <div class="img">
                             <img src="./assets/img/products/product3.webp" />
                         </div>
+                        <a href="#" class="btn secondary_btn view-product">View Details</a>
                         <div class="product-details d-flex flex-direction ">
                             <h3>Cantilever chair</h3>
                             <div class="color-options">
@@ -123,7 +152,7 @@
                                 <button class="color color-two"></button>
                                 <button class="color color-three"></button>
                             </div>
-                            <div class="product-info">
+                            <div class="product-info  d-flex flex-direction">
                                 <span>Code - Y523201</span>
                                 <span>$42.00</span>
                             </div>
@@ -131,10 +160,18 @@
                         </div>
                     </div>
 
-                     <div class="product ">
+                    <div class="product ">
+                        <div class="shopping-list">
+                            <div class="row">
+                                <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
                         <div class="img">
                             <img src="./assets/img/products/product4.webp" />
                         </div>
+                        <a href="#" class="btn secondary_btn view-product">View Details</a>
                         <div class="product-details d-flex flex-direction ">
                             <h3>Cantilever chair</h3>
                             <div class="color-options">
@@ -142,7 +179,7 @@
                                 <button class="color color-two"></button>
                                 <button class="color color-three"></button>
                             </div>
-                            <div class="product-info">
+                            <div class="product-info  d-flex flex-direction">
                                 <span>Code - Y523201</span>
                                 <span>$42.00</span>
                             </div>
@@ -150,7 +187,211 @@
                         </div>
                     </div>
 
-                   
+
+                </div>
+            </div>
+        </section>
+        <section class="leatest-products text-center">
+            <div class="container">
+                <h2>Leatest Products</h2>
+                <div class="list">
+                    <ul class="row">
+                        <li><a href="#">New Arrival</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                        <li><a href="#">Featured</a></li>
+                        <li><a href="#">Special Offer</a></li>
+                    </ul>
+                </div>
+                <div class="bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
+                        width="20px"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                    </svg>
+                </div>
+                <div class="row">
+                    <div class="product">
+
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="sale" src="./assets/img/public/sale.png" />
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product">
+
+                        <div class="shopping-list d-flex flex-direction">
+
+                            <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a class="add"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+
+                        </div>
+                        <div class="img">
+                            <img src="./assets/img/products/product1.webp" />
+                        </div>
+                        <div class="product-details">
+                            <div class="row">
+                                <div class="d-flex flex-direction">
+                                    <h3>Comfort Handy Craft</h3>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="row">
+                                        <span>$42.00</span>
+                                        <span class="old-price">$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </section>

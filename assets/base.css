@@ -84,6 +84,9 @@ ul {
 .flex-direction {
     flex-direction: column;
 }
+.flex-row{
+     flex-direction: row;
+}
 
 .gap-1 {
     gap: 5px;
