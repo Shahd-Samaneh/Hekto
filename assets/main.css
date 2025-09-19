@@ -178,7 +178,7 @@ body {
 .view-product {
     position: absolute;
     top: 55%;
-    left: 35%;
+    left: 30%;
     padding: 8px 10px;
     display: none;
     transition: all .6s;
@@ -273,15 +273,19 @@ body {
 
 .leatest-products .product {
     flex-grow: 1;
-    flex-basis: 360px;
+    flex-basis: 250px;
 
 
 
 }
+.product .img img
+{ 
+     height: 200px;
+}
 
 
 .leatest-products .row {
-    gap: 100px;
+    gap: 50px;
 }
 
 .sale {
@@ -297,7 +301,7 @@ body {
 }
 
 .leatest-products .shopping-list {
-    top: 50%;
+    top: 35%;
     transition: all .6s;
 
 }
