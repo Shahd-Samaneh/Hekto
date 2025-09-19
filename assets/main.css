@@ -94,10 +94,13 @@ body {
 }
 
 .product .img {
+       display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F6F7FB;
     padding-top: 46px;
-    padding-bottom: 12px;
-    height: 250px;
+    padding-bottom: 50px;
+    height: 270px;
     object-fit: contain;
     transition: all .6s;
 }
@@ -177,7 +180,7 @@ body {
 
 .view-product {
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 30%;
     padding: 8px 10px;
     display: none;
@@ -394,7 +397,67 @@ body {
 
 /* end Shopex-Offer*/
 
+/* start trending-products */
 
+.trending-products{
+    padding: 40px 0px;
+}
+
+
+.trending-products .row{
+    
+    justify-content: flex-start;
+    gap: 40px;
+   
+}
+.trending-products h2 {
+    color: #1A0B5B;
+    font-size: 36px;
+    font-family: var(--btnFont);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.trending-product{
+     flex-grow: 1;
+    flex-basis: 200px;
+    box-shadow: 1px 1px 4px #0000000d;
+}
+.trending-product h3 , .trending-product span{
+     color: #1A0B5B;
+}
+.trending-product .old-price{
+    color:#151875;
+    opacity: 0.3;
+}
+
+.trending-product .img{
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F6F8;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+
+
+
+.trending-products .product-info, .trending-products .product-details{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.trending-product .row{
+  justify-content: flex-start;
+    gap:12px;
+}
+
+/* end trending-products */
 
 /* start news later */
 .newsLater {
