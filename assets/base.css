@@ -54,8 +54,8 @@ ul {
     }
 }
 
-
-.btn {
+ 
+.btn{
     border: none;
     outline: none;
     font-family: var(--btnFont);

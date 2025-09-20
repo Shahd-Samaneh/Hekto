@@ -67,6 +67,57 @@ body {
 }
 
 /* end header */
+/* start hero */
+.hero{
+    background-color: #F2F0FF;
+    font-family: var(--btnFont);
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.hero .row{
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.hero-lamp{
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    width: 25%;
+}
+@media screen and (max-width:1400px) {
+    .hero-lamp{
+        display: none;
+    }
+
+}
+
+.hero-img{
+     flex-grow: 1;
+    flex-basis:200px;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero .hero-content{
+    flex-grow: 1;
+    flex-basis: 200px;
+   gap:30px;
+}
+.hero-content .p1{
+    color: #FB2E86;
+    font-weight: bold;
+
+}
+.hero-content h1{
+    font-weight: normal;
+}
+.hero-content .p2{
+    color: #8A8FB9;
+}
+/* end hero */
 /* strat products */
 
 .products {
@@ -605,6 +656,9 @@ body {
      flex-grow: 1;
     flex-basis: 200px;
      box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
+}
+.blog .img img{
+    width: 100%;
 }
 .leatest-blog{
     padding-bottom: 115px;
